@@ -1,0 +1,154 @@
+.parentContainernew {
+  width: 80%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin: 0%;
+    height: 12vh;
+    width: 100%;
+    background-color: rgba(49, 70, 177, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .groupOfButtons {
+    height: auto;
+    width: auto;
+    // border: 2px solid green;
+    margin: 0;
+    // padding: 10px;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .btn:first-child {
+      margin-left: 0;
+      border-left: 2px solid rgb(85, 84, 84);
+    }
+
+    .btn:last-child {
+      margin-left: 0;
+      border-right: 2px solid rgb(85, 84, 84);
+    }
+
+    Button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 4rem;
+      height: 3rem;
+      background-color: #ffffff;
+      color: black;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      border-radius: 0;
+      border: 1px solid rgb(204, 199, 199);
+      border-top: 2px solid rgb(85, 84, 84);
+      border-bottom: 2px solid rgb(85, 84, 84);
+      //   padding: 0;
+      margin: 0;
+
+      div {
+        width: 20px;
+        height: 16px;
+        background-color: rgb(86, 86, 155);
+        color: #ffffff;
+        border-radius: 150%;
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+
+
+
+.parentContainer {
+  box-sizing: border-box;
+  gap: 2rem;
+  margin-bottom: 4rem;
+
+  .metaDataContainer1 {
+    min-height: 10vh;
+    width: 92%;
+    background-color: #e2e0e0;
+    border-radius: 20px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    &__data {
+      width: auto;
+      display: flex;
+      gap: 12px;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .key {
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+
+      .value {
+        color: #7b7272;
+        font-weight: 600;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .articleContainer {
+    height: auto;
+    width: 92%;
+    background-color: #e2e0e0;
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 20px;
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    &__titleHeading {
+      color: black;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+
+    &__titleContent {
+      font-weight: 600;
+      font-size: 15px;
+      color: #7b7272;
+      font-family: "Lato";
+    }
+  }
+}
+.marginBottom {
+  margin-bottom: 3rem !important;
+}
+
+// @font-face {
+//   font-family: bhaskar;
+//   src: url("../Fonts/Bhaskar.ttf");
+// }
